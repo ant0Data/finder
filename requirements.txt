@@ -1,0 +1,12 @@
+streamlit
+streamlit-option-menu
+openai
+pandas
+requests
+PyMuPDF
+folium
+plotly
+python-dotenv
+Pillow
+numpy
+

@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ajout de secrets au gitignore
+secrets.toml
+

@@ -1,6 +1,8 @@
 # finder
 Persionnalized and reasonning job application
 
+https://finder.streamlit.app/
+
 🎯 Finder - Analyse de CV et Recommandation d'Offres d'Emploi
 
 Finder est une application web développée avec Streamlit, permettant aux utilisateurs d'uploader leur CV en PDF ou DOCX afin d'obtenir des recommandations d'offres d'emploi pertinentes via un appel API vers le serveur de France Travail. 

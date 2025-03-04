@@ -4,6 +4,11 @@ Persionnalized and reasonning job application
 Fonctionne uniquement pour les profils data ou développeur pour le moment. Update à venir.
 Si vous n'avez pas de CV data ou dev, vous pouvez utiliser le mien, à disposition dans le repo.
 
+La collecte de données est effectuée via un appel API sur le site de France Travail.
+Les données collectées sont nettoyées et traitées via Pandas.
+Les fonctionnalités d'intelligence de Finder reposent sur des appels API OpenAI, modèle 4o-mini, puis un travail de prompt.
+
+
 https://finder.streamlit.app/
 
 🎯 Finder - Analyse de CV et Recommandation d'Offres d'Emploi

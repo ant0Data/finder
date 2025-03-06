@@ -2,11 +2,11 @@
 Persionnalized and reasonning job application
 
 Fonctionne uniquement pour les profils data ou développeur pour le moment. Update à venir.
-Si vous n'avez pas de CV data ou dev, vous pouvez utiliser le mien, à disposition dans le repo.
+Si vous n'avez pas de CV data ou dev, vous pouvez utiliser le CV anonyme à disposition dans le repo.
 
 La collecte de données est effectuée via un appel API sur le site de France Travail.
 Les données collectées sont nettoyées et traitées via Pandas.
-Les fonctionnalités d'intelligence de Finder reposent sur des appels API OpenAI, modèle 4o-mini, puis un travail de prompt.
+Les fonctionnalités d'intelligence de Finder reposent sur des appels API OpenAI, modèle 4o-mini via un travail de prompt engineering.
 
 
 https://finder.streamlit.app/
@@ -16,9 +16,9 @@ https://finder.streamlit.app/
 Finder est une application web développée avec Streamlit, permettant aux utilisateurs d'uploader leur CV en PDF ou DOCX afin d'obtenir des recommandations d'offres d'emploi pertinentes via un appel API vers le serveur de France Travail. 
 L'application intègre également un tableau de bord interactif, une génération automatique de lettres de motivation, des préparations à l'entretien d'embauche via une API d'IA générative.
 
-![image](https://github.com/user-attachments/assets/e39fea65-8b5d-406c-a0e4-ca454888af75)
+![Capture d'écran 2025-03-06 211106](https://github.com/user-attachments/assets/bb5ebb4b-d0fb-4f31-8636-0a1410cce260)
 
-![image](https://github.com/user-attachments/assets/9de0add2-d0d7-48cd-8767-5ea96e3db7f9)
+![Capture d'écran 2025-03-06 190908](https://github.com/user-attachments/assets/33d4b00a-d68c-454d-b9f6-227cc61ae369)
 
 
 Fonctionnalités:
@@ -28,12 +28,11 @@ Fonctionnalités:
 - Génération de lettre de motivation : Création d'une lettre personnalisée basée sur le CV et l'offre choisie.
 - Tableau de bord interactif : Visualisation des recommandations et statistiques sur les offres.
 - Préparation à l'entretien d'embauche
-- Chatbot: appui dans les démarches (générations de tests techniques, infos sur les entreprises...,etc.)
+- Préparation aux tests techniques
 
-![image](https://github.com/user-attachments/assets/64669a1f-4d17-4ba5-b926-5bfb1712e930)
+![Capture d'écran 2025-03-06 204136](https://github.com/user-attachments/assets/aaff1dac-2495-420e-9ea4-5ca7c2fc1a59)
 
-![image](https://github.com/user-attachments/assets/fc86b1ab-abac-4d7d-8a09-4e3eb6f1a155)
-
+![Capture d'écran 2025-03-06 190553](https://github.com/user-attachments/assets/e8944183-56a6-453a-8676-37e9b7e3fc73)
 
 Technologies utilisées
 
@@ -42,3 +41,5 @@ Technologies utilisées
     Pandas 📊 (Traitement des données)
     API IA générative 🤖 (Création automatique de lettres de motivation, entretiens, chatbot)
     API France Travail
+
+L'application finder a été développée dans le cadre d'un projet de fin de formation à la Wild Code School de Lille. Ce travail a été réalisé en équipe, merci à Ludovic, Riad et Daniel pour leur investissement et leur bonne humeur ! Merci à nos formateurs Soufiane et Tiphaine pour leurs précieux conseils !

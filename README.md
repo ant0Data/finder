@@ -2,6 +2,7 @@
 Persionnalized and reasonning job application
 
 Application à visée pédagogique et non commerciale.
+
 Un cv data ou dev vous permettra d'exploiter toutes les fonctionalités de finder.
 Si besoin, vous pouvez utiliser le CV anonyme à disposition dans le repo.
 

@@ -1,8 +1,9 @@
 # finder
 Persionnalized and reasonning job application
 
-Fonctionne uniquement pour les profils data ou développeur pour le moment. Update à venir.
-Si vous n'avez pas de CV data ou dev, vous pouvez utiliser le CV anonyme à disposition dans le repo.
+Application à visée pédagogique et non commerciale.
+Un cv data ou dev vous permettra d'exploiter toutes les fonctionalités de finder.
+Si besoin, vous pouvez utiliser le CV anonyme à disposition dans le repo.
 
 La collecte de données est effectuée via un appel API sur le site de France Travail.
 Les données collectées sont nettoyées et traitées via Pandas.

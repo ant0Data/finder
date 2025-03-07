@@ -42,7 +42,7 @@ if "finder_page" not in st.session_state:
 selected = option_menu(
     menu_title=None,
     options=["Finder: Trouvez des offres d'emploi", "Préparez votre entretien", "Entraînez vous aux tests techniques", "Espace personnel", "A propos de Finder"],
-    icons=["bullseye", "person-circle", "chat-right-dots", "chat-right-dots", "bullseye"],
+    icons=["bullseye", "chat-right-dots", "chat-right-dots",  "person-circle", "bullseye"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
